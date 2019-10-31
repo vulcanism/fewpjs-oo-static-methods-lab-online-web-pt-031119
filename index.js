@@ -21,5 +21,6 @@ class Formatter {
         titleString.push(this.capitalize(stringArray[i]))
       }
     }
+    return titleString.join(" ")
   }
 }
